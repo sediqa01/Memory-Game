@@ -17,6 +17,23 @@ body {
 
 }
 
+.wrapper {
+    height: 500px;
+    width:  500px;
+    background: #f8f8f8f8;
+    border-radius: 10px;
+}
+.cards , .card , .view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    height: 100%;
+    width:100%;
+    flex-wrap: wrap;
+}
+
 .card .back-view img {
     max-width: 45px;
 }
