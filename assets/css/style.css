@@ -1,5 +1,8 @@
+/* import Google fonts link --  'Spinnaker', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Spinnaker', sans-serif;
 }
