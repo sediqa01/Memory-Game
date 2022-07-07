@@ -20,6 +20,7 @@ body {
 .wrapper {
     height: 400px;
     width:  400px;
+    padding: 25px;
     background: #f8f8f8f8;
     border-radius: 10px;
 }
@@ -32,13 +33,28 @@ body {
     height: 100%;
     width:100%;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .cards .card {
+    cursor:pointer;
+    position: relative;
     height: calc(100% / 4 - 10px) ;
     width: calc(100% / 4 - 10px);
 }
-.card .front-view {
-    display: none;
+.cards .card  .view {
+    height: 100%;
+    width:100%;
+    position: absolute;
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0, 0, 0.1);
+
+}
+.card .front-view span{
+    font-size: 30px;
+}
+.card .back-view {
+    transform: rotateY(-180deg);
 }
 
 .card .back-view img {
