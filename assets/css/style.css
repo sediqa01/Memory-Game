@@ -18,8 +18,8 @@ body {
 }
 
 .wrapper {
-    height: 500px;
-    width:  500px;
+    height: 400px;
+    width:  400px;
     background: #f8f8f8f8;
     border-radius: 10px;
 }
@@ -32,6 +32,13 @@ body {
     height: 100%;
     width:100%;
     flex-wrap: wrap;
+}
+.cards .card {
+    height: calc(100% / 4 - 10px) ;
+    width: calc(100% / 4 - 10px);
+}
+.card .front-view {
+    display: none;
 }
 
 .card .back-view img {
